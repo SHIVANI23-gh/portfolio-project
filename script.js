@@ -10,7 +10,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     };
 
     try {
-        const response = await fetch("http://localhost:3000/contact", {
+        const response = await fetch("https://portfolio-backend-g8uj.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
