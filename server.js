@@ -9,7 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/portfolioDB")
+//mongodb+srv://shivani23_mongo:<db_password>@cluster0.4wckima.mongodb.net/?appName=Cluster0
+mongoose.connect("mongodb+srv://shivani23_mongo:<db_password>@cluster0.4wckima.mongodb.net/?appName=Cluster0")//mongodb://127.0.0.1:27017/portfolioDB")
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log("DB Error:", err));
 
