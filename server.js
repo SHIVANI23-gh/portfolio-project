@@ -10,7 +10,7 @@ app.use(express.json());
 
 // MongoDB connection
 //mongodb+srv://shivani23_mongo:<db_password>@cluster0.4wckima.mongodb.net/?appName=Cluster0
-mongoose.connect("mongodb+srv://shivani23_mongo:<db_password>@cluster0.4wckima.mongodb.net/?appName=Cluster0")//mongodb://127.0.0.1:27017/portfolioDB")
+mongoose.connect("mongodb+srv://shivani23_mongo:<mongo@2310>@cluster0.4wckima.mongodb.net/?appName=Cluster0")//mongodb://127.0.0.1:27017/portfolioDB")
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log("DB Error:", err));
 
